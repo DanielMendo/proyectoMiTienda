@@ -1,0 +1,56 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /*1 rem = 10px */ 
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #3598dc;
+}
+.formulario {
+    height: calc(100vh - 2rem);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+form h2 {
+    font-size: 3rem;
+    margin-bottom: 0;
+    color: #333333;
+}
+form p {
+    margin-top: .5rem;
+    font-size: 1.3rem;
+    color: #999999;
+}
+
+form {
+    padding: 3rem;
+    background-color: #fff;
+    border-radius: .5rem;
+    width: 35rem;
+}
+form .enviar {
+    background-color: #3598dc;
+    border: none;
+    color: #fff;
+}
+form input {
+    display: block;
+    width: 100%;
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    border-radius: .6rem;
+    outline: none;
+    border: none;
+    background-color: #f2f2f2;
+}
+
+
+
