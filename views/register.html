@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style/main.css">
+</head>
+<body>
+    <div class="formulario">
+        <form action="../controllers/register.php" method="POST">
+            <h2>Sign Up</h2>
+            <p>Registra tus datos</p>
+            <input type="text" name="nombre" placeholder="Nombre">
+            <input type="email" name="email" placeholder="Correo electronico">
+            <input type="password" name="password" placeholder="Contraseña">
+            <input type="submit" value="Enviar" class="enviar" name="envio">
+        </form>
+    </div>
+</body>
+</html>
